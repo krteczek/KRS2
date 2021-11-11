@@ -1,0 +1,23 @@
+
+<?php
+
+// administrátor: jméno a heslo
+define("adminUser", "krteczek");
+define("adminPass", "matess");
+define("adminMail", "krteczek01@gmail.com");
+
+define("SQL_HOST", "localhost"); //název serveru na kterém běží databáze
+define("SQL_DBNAME", "kitikara");  //název databáze ve které budou vytvořeny tabulky
+define("SQL_USERNAME", "krteczek");  //přihlašovací jméno k databázi
+define("SQL_PASSWORD", "matess1");   //přihlašovací heslo k databázi
+
+$prefix = "kit_";
+
+define("Tabulka_clanky", $prefix . "kiti_clanky");
+//define("Tabulka_pristupy", $prefix."kiti_pristupy");
+define("Tabulka_sekce", $prefix . "kiti_sekce");
+define("Tabulka_komentare", $prefix . "kiti_komentare");
+define("Tabulka_kniha", $prefix . "kiti_kniha");
+define("Tabulka_kategorie", $prefix . "kiti_kategorie");
+
+
