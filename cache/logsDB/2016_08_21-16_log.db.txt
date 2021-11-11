@@ -1,0 +1,27 @@
+
+21.08.2016-16:32:49						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_sekce ORDER BY `nazev` asc
+21.08.2016-16:32:49						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+21.08.2016-16:32:49						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+21.08.2016-16:35:17						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-16:35:17						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_sekce ORDER BY `nazev` asc
+21.08.2016-16:35:17						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_sekce ORDER BY `nazev` asc
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-16:35:17						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+21.08.2016-16:35:17						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-16:35:17						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+21.08.2016-16:35:17						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)

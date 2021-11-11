@@ -1,0 +1,275 @@
+
+21.08.2016-21:19:16						E R R O R						http://127.0.0.1/kiti/trunk/admin.php																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:29:16						E R R O R						http://127.0.0.1/kiti/trunk/index.php																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:29:21						E R R O R						http://127.0.0.1/kiti/trunk/index.php																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:29:23						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:29:23						log						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+21.08.2016-21:29:23						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:29:27						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=add																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:34:51						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=add																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:35:07						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=add																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:37:42						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=add																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+1045
+
+Access denied for user 'www-data'@'localhost' (using password: NO)
+21.08.2016-21:39:06						E R R O R						http://127.0.0.1/kiti/trunk/admin.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:39:08						E R R O R						http://127.0.0.1/kiti/trunk/index.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:45:45						E R R O R						http://127.0.0.1/kiti/trunk/index.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:46:23						E R R O R						http://127.0.0.1/kiti/trunk/index.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:46:30						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:46:30						log						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+21.08.2016-21:46:30						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+
+
+
+
+21.08.2016-21:46:32						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=add																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:46:34						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:46:34						log						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+21.08.2016-21:46:34						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+
+
+
+
+21.08.2016-21:46:39						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=add																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:49:41						E R R O R						http://127.0.0.1/kiti/trunk/admin.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:49:43						E R R O R						http://127.0.0.1/kiti/trunk/admin.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:49:43						E R R O R						http://127.0.0.1/kiti/trunk/admin.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:49:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:49:46						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_sekce ORDER BY `nazev` asc
+21.08.2016-21:49:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_sekce ORDER BY `nazev` asc
+
+
+
+
+21.08.2016-21:49:46						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+21.08.2016-21:49:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+
+
+
+
+21.08.2016-21:49:46						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+21.08.2016-21:49:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+
+
+
+
+21.08.2016-21:50:12						E R R O R						http://127.0.0.1/kiti/trunk/index.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:50:31						E R R O R						http://127.0.0.1/kiti/trunk/index.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:50:36						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:50:36						log						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+21.08.2016-21:50:36						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+
+
+
+
+21.08.2016-21:50:38						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=add																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:50:40						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:50:40						log						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+21.08.2016-21:50:40						E R R O R						http://127.0.0.1/kiti/trunk/index.php?book=list																		SELECT `jmeno`, `email`, `komentar`, DATE_FORMAT(kit_kiti_kniha.cas, '%e.%b %Y  %H:%i:%s') as cas, `titulek` FROM kit_kiti_kniha WHERE `zobrazovat` = 1 ORDER BY `id` DESC
+
+
+
+
+21.08.2016-21:54:58						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=texyla																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:55:33						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=texyla																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:55:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:55:46						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_sekce ORDER BY `nazev` asc
+21.08.2016-21:55:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_sekce ORDER BY `nazev` asc
+
+
+
+
+21.08.2016-21:55:46						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+21.08.2016-21:55:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+
+
+
+
+21.08.2016-21:55:46						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+21.08.2016-21:55:46						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=clanky&naz=napis-clanek																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+
+
+
+
+21.08.2016-21:56:27						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:56:27						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`, `nazev`, `zobrazovat` FROM kit_kiti_kategorie ORDER BY `nazev`
+21.08.2016-21:56:27						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`, `nazev`, `zobrazovat` FROM kit_kiti_kategorie ORDER BY `nazev`
+
+
+
+
+21.08.2016-21:56:27						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+21.08.2016-21:56:27						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+
+
+
+
+21.08.2016-21:56:27						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+21.08.2016-21:56:27						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+
+
+
+
+21.08.2016-21:56:36						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=vytvor-sekci																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:56:36						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=vytvor-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie ORDER BY `nazev` asc
+21.08.2016-21:56:36						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=vytvor-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie ORDER BY `nazev` asc
+
+
+
+
+21.08.2016-21:56:36						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=vytvor-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+21.08.2016-21:56:36						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=vytvor-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+
+
+
+
+21.08.2016-21:56:36						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=vytvor-sekci																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+21.08.2016-21:56:36						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=vytvor-sekci																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+
+
+
+
+21.08.2016-21:57:26						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+
+
+21.08.2016-21:57:26						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`, `nazev`, `zobrazovat` FROM kit_kiti_kategorie ORDER BY `nazev`
+21.08.2016-21:57:26						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`, `nazev`, `zobrazovat` FROM kit_kiti_kategorie ORDER BY `nazev`
+
+
+
+
+21.08.2016-21:57:26						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+21.08.2016-21:57:26						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `nazev`, `id` FROM kit_kiti_kategorie WHERE `zobrazovat` = 1 ORDER BY `id` ASC
+
+
+
+
+21.08.2016-21:57:26						log						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+21.08.2016-21:57:26						E R R O R						http://127.0.0.1/kiti/trunk/admin.php?clanek=sekce&naz=uprav-sekci																		SELECT `id`,`nazev`,`sekce` FROM kit_kiti_clanky WHERE `zobrazovat` = 1 AND `blokall` = 1 ORDER BY `id` DESC LIMIT 0, 10
+
+
+

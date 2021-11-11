@@ -1,0 +1,5 @@
+
+03.11.2016-14:24:53						E R R O R						http://188.175.184.82/kiti/trunk/index.php																		Litujeme, nelze se připojit k databázovému serveru. Prosíme zkontrolujte pečlivě vámi zadané údaje, případné chyby opravte a znovu se pokuste připojit k databázi.
+
+
+

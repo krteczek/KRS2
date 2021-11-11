@@ -1,0 +1,176 @@
+body
+{
+    background:#eeeeee url("./img/bg_body.png");
+    padding:10px;
+    font-size:95%;
+    text-align:center; 
+    font-family:"trebouchet ms",sans-serif;
+    color:#660000;
+}
+html,p,div,img,ol,ul,li,form,fieldset,dl,dt,dd,hr,h1,h2,h3,h4,.navigace,.levy,.pravy,.clanky,#prostrednisloupec,#kontejnermaly
+{
+    margin:0;
+    padding:0;
+}
+#vsechno
+{
+    width:770px;
+    background-color:#f5e1af;
+    margin:0 auto ;
+    padding:0;
+    border:2px solid #660000;
+    text-align:center;
+}
+/* hlavi?ka */
+
+#hlavicka
+{
+    width:770px;
+    height:145px;
+    margin:0;
+    padding:0ex;
+    border-bottom:1px solid #660000;
+}
+
+h1,a span{display:none}
+a#navrat{display:block;height:145px;width:770px}
+#hlavicka a {background-image:url("./img/kitikara.png");}
+/*span{display:block;height:145px;width:770px;background-image:url("./img/kitikara.png")}
+*/
+#kontejnervelky
+{
+    width:770px;
+    margin: 0  ; 
+    padding: 0px 0 0 0;
+    margin:0px auto;
+}
+
+#kontejnermaly
+{
+    width:605px;
+    margin:0;
+    padding:0px;
+    float:left;
+
+}
+
+#prostrednisloupec
+{
+    width:443px;_width:439px;
+    float:right;
+    padding:0px;
+    margin-bottom:0px;
+    margin-top:15px;_margin-top:5px;
+
+}
+#prostrednisloupecadmin {
+    width:600px;
+    float:right;
+    padding:0px;
+    margin-bottom:0px;
+    margin-top:15px;
+
+}
+#prostrednisloupecadmin div.clanky {width:98%;}
+
+#prostrednisloupecadmin div.clanky ul {margin-left:0;}
+.kategorie,.anketa,.pocitadlo {border:1px solid #660000;}
+/* navigace */
+a{font-weight: bolder;color:#660000;text-decoration:underline;}
+a:hover{background-color:#660000;color:#e4c9a0;}
+.navigace {;text-align:left;}
+.navigace img{border:none}
+.kategorie,.anketa,.pocitadlo,.clanky{border:1px solid #660000;margin-top:10px;background-color:#e4c9a0;}
+.anketa a,.pocitadlo a,.sekce a,.cla a,.odpoved{display:block;text-decoration:none;}
+.sekce a{font-size:90%;padding:2px 5px  }
+.cla a{font-size:85%;padding-left:15px }
+.vysledek{padding:0 5px}
+.otazka{padding:5px;font-weight: bold;color:#660000;font-size:110%;}
+.odpoved a{padding:5px;font-weight: bold;}
+.odkazy{width:390px;padding:0 0 8px 0 ;margin:0px auto}
+.levy{float:left;}
+.pravy{float:right;}
+
+fieldset{width:400px;margin:20px auto;background-color:#f5e1af;border:none;text-align:left;padding:5px;}
+.kom{text-align:left;}
+.clanky {width:443px;_width:439px;}
+.clanky p{padding:0 5px;text-align:justify;text-indent:15px;margin:0}
+.clanky form{text-align:left;padding:5px;}
+.clanky form ul{padding-left:20px;list-style-type:none}
+#levysloupec
+{
+    width:150px;
+    float:left;
+    padding:16px 0;
+    margin-left:5px;
+    margin-bottom:8px;
+}
+
+#pravysloupec
+{
+    width:150px;
+    float:right;
+    padding:16px 0;
+    margin-right:5px;
+    margin-bottom:8px;
+}
+
+
+.patkamala
+{
+    clear:both;
+}
+
+#patkavelka
+{
+    clear:both;
+    width:770px;
+    padding:1px 0;
+    margin:0;
+    background-color:#660000;
+    color:#ffcc99;
+    font-weicght:normal;
+}
+.patka{clear:both;}
+h2,h3,h4{font-size:120%;background-color:#660000;color:#e4c9a0;text-align:center;margin:0;padding:0/*background-color:#660000;color:#660000;border-bottom:1px #660000 solid*/}
+table.admin,td.admin,tr.admin,th.admin
+{
+    border:1px solid #660000;
+}	
+.formular table,.formular td{border:none;}
+.formular span{font-weight:bold}
+#pocitadlo4{width:75px;}
+.clanky ul{text-align:left;margin-left:2em}
+.clanky li{margin-left:2em}
+h2, h3, h4{font-family: "Comic Sans MS", fantasy;}
+
+.err {color:red; font-weight: bolder;border:1px solid red;padding: 15px; margin:5px;width:90%;  background-color: white; font-size:14px;}
+
+
+.hide {display: none;}
+
+div.ui-dialog {font-size:85%}
+.kategorie ul {list-style: none}
+
+
+.hidden {color: #d7652b;text-decoration: line-through }
+
+.novinky fieldset{width:95%; margin:20px auto;background-color:#f5e1af;border:none;text-align:left;padding:5px;}
+
+.komentare fieldset {width:95%; margin:20px auto;background-color:#f5e1af;border:none;text-align:left;padding:5px;}
+
+.green {color:green}
+.red {color:red}
+
+li b.menu {
+    display:block;
+    width:94%;
+    font-size:90%;
+    padding:2px 5px
+}
+
+li b.menu:hover {
+    background-color:#660000;
+    color:#e4c9a0;
+    cursor: move;/*funguje v chrome*/
+}
