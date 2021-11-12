@@ -1,0 +1,35 @@
+
+12.11.2021-01:18:25						E R R O R						http://127.0.0.1/html/kiti/trunk/KRS2/index.php?install=go																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+
+
+
+12.11.2021-01:20:53						E R R O R						http://127.0.0.1/html/kiti/trunk/KRS2/index.php?install=go																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+
+
+
+12.11.2021-01:35:53						E R R O R						http://127.0.0.1/html/kiti/trunk/KRS2/index.php?install=go																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+
+
+
+12.11.2021-01:36:36						E R R O R						http://127.0.0.1/html/kiti/trunk/KRS2/index.php?install=go																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+
+
+
+12.11.2021-01:42:01						E R R O R						http://127.0.0.1/html/kiti/trunk/KRS2/index.php?install=go																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+
+
+
+12.11.2021-01:43:33						E R R O R						http://127.0.0.1/html/kiti/trunk/KRS2/index.php?install=go																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+
+
+
+12.11.2021-01:45:27						E R R O R						http://127.0.0.1/html/kiti/trunk/KRS2/index.php?install=go																		Litujeme, vybraná databáze na připojeném serveru neexistuje.
+
+
+

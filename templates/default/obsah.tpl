@@ -15,41 +15,12 @@
 			</div>
 			<div id="menu">
 			{{!menu!}}
-			<!--	<ul>
-					<li><a href="./" class="active">Restaurování</a></li>
-					<li><a href="./reference.html">Reference</a></li>
-					<li><a href="./fotogalerie.html">Fotogalerie</a></li>
-					<li><a href="./prezentace.html">Prezentace</a></li>
-					<li><a href="./kontakt.html">Kontakt</a></li>
-				</ul>//-->
-
 			</div>
 			<div id="siroky">
 				<h1>{{!title!}}</h1>
 				{{!olderPageLink!}}{{!newerPageLink!}}
 				{{!uvodnik!}}
-				<h2>Provádím  a  nabízím restaurování:</h2>
-				<ul>
-					<li>Alkalických kovů, Přechodných a Nepřechodných kovů, Ušlechtilých kovů, Kovy skupiny železa, Platinové kovy lehké a těžké, Lanthanoidy, Aktinoidy.</li>
-					<li>Povrchové a konečné úpravy kovů.</li>
-					<li>Dveřní a okenní kování, panty, zámky, přítuhy.</li>
-					<li>Soch, kašen, bran, branek, plotů, mříží, balkonového a schodišťového zábradlí a dalších kovových výrobků. </li>
-					<li>Patinování bronzu, mědi, mosazi.</li>
-					<li>Šperků, pamětních medailí, mincí a dalších drobných věcí.</li>
-					<li>Cínování, zlacení plátkovým zlatem na mixtion, galvanické zlacení.</li>
-					<li>Vypracování restaurátorského průzkumu, záměru, rozpočtu, konečné restaurátorské zprávy a fotodokumentace.</li>
-					<li>Všechny nabízené práce jsou kryté licencí Ministerstva kultury České republiky&nbsp;11833/1990: Restaurovat umělecká a uměleckořemeslná díla z kovů bez omezení. </li>
-				</ul>
-
-
-				<h3>Historie</h3>
-				<p>
-    				Restaurátorstvím se ve starší době zabývali příslušní umělci a řemeslníci a teprve v 19.&nbsp;století pod vlivem historismu se ukázalo, že vyžaduje ještě jiné znalosti. Cílem restaurování v 19.&nbsp;století, jak jej formuloval „otec zakladatel“ obnovy památek, francouzský architekt Eugène Viollet-le-Duc, bylo obnovit dílo v původní podobě, případně doplnit a zdokonalit. Tato puristická snaha silně poškodila zejména staré stavby, kde se lehkomyslně všechno poškozené vyměnilo, takže obnovená stavba působí jako nová. Proti tomu vystoupil anglický spisovatel John Ruskin, který napsal, že taková stavba nebo umělecký předmět je „lež od začátku do konce“. Novou koncepci „konservovat, ne restaurovat“ prosadil německý historik umění Georg Dehio. V průběhu 20.&nbsp;století převládla tato opačná tendence pouze očistit a fixovat původní povrch díla, což vedlo například u&nbsp;nástěnných maleb k&nbsp;výsledku, který je pro diváka velmi neuspokojivý: mezi kusy zachované malby byly plochy holé omítky, které celkový dojem rozbíjely. V současné době se proto hledají vhodné kompromisy mezi požadavkem historické šetrnosti a věrnosti a na druhé straně uměleckého působení díla. Doplňky a retuše mají být šetrné, rozlišitelné od&nbsp;původních částí a opět odstranitelné.
-
-				</p>
-
-
-			</div>
+			</div>{{!content!}}
 			<!-- konec siroky -->
 			<!-- konec úzkého sloupce s menu -->
 			<div id="paticka">

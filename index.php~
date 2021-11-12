@@ -14,7 +14,7 @@ $configPath = ROOT_WEBU . '/cache/config/config.php';
  * pokud není, jdeme instalovat
  */
 if (!file_exists($configPath)) {
-	echo"jo";
+	//echo"jo";
     require_once(ROOT_WEBU . '/admin/install.php');
     $clanek = new install;
     $clanek->cachePaths = $cachePaths;
@@ -26,7 +26,7 @@ if (!file_exists($configPath)) {
     /*
      * připojíme k databázi...
      */
-    $dbs = new pager();;;
+    $dbs = new pager();
     /*
      * zatím nepotřebné...
      * /

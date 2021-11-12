@@ -147,13 +147,13 @@ class db {
 	    return $this->error($this->lang['dbErrConnectDb']);
 	}
 
-	if (!@mysql_select_db($db)) {
+	if (!@mysqli_select_db($db)) {
 	    $this->error = true;
 	    echo "tady";
 	    return $this->error($this->lang['dbErrSelectDb']);
 	}
-	//mysql_query("SET NAMES '" . $kodovani . "'");
-	mysql_query("SET CHARACTER SET '" . $kodovani . "'");
+	//mysqli_query("SET NAMES '" . $kodovani . "'");
+	mysqli_query("SET CHARACTER SET '" . $kodovani . "'");
 	$this->connect = $connect;
 	return $connect;
     }
@@ -168,7 +168,7 @@ class db {
 
     public function query($query) {
 	$this->q = $query;
-	$v = mysql_query($this->q, $this->connect);
+	$v = mysqli_query($this->q, $this->connect);
 	return $v;
     }
 
@@ -215,15 +215,15 @@ class db {
 	    $this->q .= $var;
 	}
 	// samotné vykonání dotazu
-	$v = mysql_query($this->q, $this->connect);
+	$v = mysqli_query($this->q, $this->connect);
 	$this->dbLog($this->q);
 	if ($v === true) {
 	    // OK, vrátíme id vloženého záznamu
-	    return mysql_insert_id();
+	    return mysqli_insert_id();
 	}
-	if (mysql_errno() == 1062) {
+	if (mysqli_errno() == 1062) {
 	    // pokus o vložení stejného záznamu do sloupce s unique
-	    return $this->lang['dbErrDuplicateValue'] . ($this->debug === true ? mysql_error() : '');
+	    return $this->lang['dbErrDuplicateValue'] . ($this->debug === true ? mysqli_error() : '');
 	}
 	// chyba v db dotazu
 	return $this->error($this->q);
@@ -272,19 +272,19 @@ class db {
 	}
 	$this->q = "UPDATE `" . $tableName . "` SET " . $d . ' ' . $clause;
 
-	$v = mysql_query($this->q, $this->connect);
+	$v = mysqli_query($this->q, $this->connect);
 
 	$this->dbLog($this->q);
 	if ($v) {
 	    // pokud ke změně nedojde (nová data jsou stejná jako puvodní data) vrátí se false
-	    $p = mysql_affected_rows();
+	    $p = mysqli_affected_rows();
 	    if ($p > 0) {
 		return true;
 	    }
 	    return false;
-	} else if (mysql_errno() == 1062) {
+	} else if (mysqli_errno() == 1062) {
 	    // pokus o vložení stejného záznamu do sloupce s unique
-	    return $this->lang['dbErrDuplicateValue'] . ($this->debug === true ? mysql_error() : '');
+	    return $this->lang['dbErrDuplicateValue'] . ($this->debug === true ? mysqli_error() : '');
 	}
 	// chyba v db dotazu
 	return $this->error($this->q);
@@ -310,20 +310,20 @@ class db {
 	 *  Pokud není nalezen záznam, vrátí true
 	 * * */
 	$this->q = $query;
-	$v = mysql_query($this->q, $this->connect);
+	$v = mysqli_query($this->q, $this->connect);
 	$this->dbLog($this->q);
 	if ($v) {
-	    $p = mysql_num_rows($v);
+	    $p = mysqli_num_rows($v);
 	    if ($p > 0) {
 		$out = array();
 		for ($i = 1; $i <= $p; $i++) {
-		    $r = mysql_fetch_assoc($v);
+		    $r = mysqli_fetch_assoc($v);
 		    foreach ($r as $key => $foo) {
 			$r[$key] = $foo;
 		    }
 		    $out[] = $r;
 		}
-		mysql_free_result($v);
+		mysqli_free_result($v);
 		return $out;
 	    }
 	    $this->errMsg = $this->lang['dbErrValueNotInDb'] . ($this->debug === true ? $this->q : '');
@@ -345,13 +345,13 @@ class db {
 
     public function delete($query) {
 	$this->q = $query;
-	$v = mysql_query($this->q, $this->connect);
+	$v = mysqli_query($this->q, $this->connect);
 	// TODO: doladit to zde, podle toho co by bylo lepší, jestli toto, is_bool, ...
 	$this->dbLog($this->q);
 	if ($v === true) {
 	    return true;
 	} else if ($v === false) {
-	    return $this->lang['dbNotDeleted'] . $this->debug === true ? $this->q : ''; //. mysql_error() . '<br>' . $query;
+	    return $this->lang['dbNotDeleted'] . $this->debug === true ? $this->q : ''; //. mysqli_error() . '<br>' . $query;
 	}
 	return $this->error($this->q);
     }
@@ -359,8 +359,8 @@ class db {
     /**
      * metoda slouží k ošetření vstupních řetězců použitých v db dotazech
      * je ji možné zavolat až po inicializaci
-     * metoda na ošetření používá funkci mysql_real_escape_string,
-     * pokud není dostupná, použije mysql_escape_string, pokud
+     * metoda na ošetření používá funkci mysqli_real_escape_string,
+     * pokud není dostupná, použije mysqli_escape_string, pokud
      * ani tato není dostupná, použije addslashes.
      * string umístí do apostrofu
      * @param string $polozka
@@ -374,8 +374,8 @@ class db {
     /**
      * metoda slouží k ošetření vstupních řetězců použitých v db dotazech
      * je ji možné zavolat až po inicializaci
-     * metoda na ošetření používá funkci mysql_real_escape_string,
-     * pokud není dostupná, použije mysql_escape_string, pokud
+     * metoda na ošetření používá funkci mysqli_real_escape_string,
+     * pokud není dostupná, použije mysqli_escape_string, pokud
      * ani tato není dostupná, použije addslashes.
      * string umístí do apostrofu
      * @param string $polozka
@@ -391,7 +391,7 @@ class db {
 	    } else if (strtolower(trim($var)) == 'now()') {
 		$var = 'NOW()';
 	    } else {
-		$var = "'" . (function_exists('mysql_real_escape_string') ? mysql_real_escape_string($var, $this->connect) : (function_exists('mysql_escape_string') ? mysql_escape_string($var) : addslashes($var)) ) . "'";
+		$var = "'" . (function_exists('mysqli_real_escape_string') ? mysqli_real_escape_string($var, $this->connect) : (function_exists('mysqli_escape_string') ? mysqli_escape_string($var) : addslashes($var)) ) . "'";
 	    }
 	}
 	return $var;
@@ -402,7 +402,8 @@ class db {
      */
 
     private function error($query) {
-	$log = $query . "\n\n" . mysql_errno() . "\n\n" . mysql_error();
+	$log = $query . "\n\n" . mysqli_errno($this) . "\n\n" . mysqli_error($this->connect);
+	printr($log);
 	$this->saveQueryToFile($log, true);
 	$this->errMsg = !empty($this->errMsg) ? $this->errMsg : $this->lang['dbErrMsg'] . $this->emailAdmina . ($this->debug === true ? '<p>' . nl2br($log) . '</p>' : '');
 	return $this->errMsg;
